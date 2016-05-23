@@ -16,6 +16,7 @@ fi
 if egrep -q -v '^#|^[^ ]*=[^;]*' "$config_file"; then
   # Filter the original to a new file
   egrep '^#|^[^ ]*=[^;&]*'  "$config_file" > "$config_file_secured"
+  # Use filtered file
   config_file="$config_file_secured"
 fi
 
