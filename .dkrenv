@@ -1,0 +1,4 @@
+# Example .dkrenv file
+DKR_IMAGE=ubuntu
+DKR_PORTS="127.0.0.1:9000:9000 127.0.0.1:9001:9001"
+DKR_VOLUMES=/Users/ryan/Downloads:/opt/downloads
